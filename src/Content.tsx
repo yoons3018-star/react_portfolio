@@ -54,49 +54,49 @@ const handleNext = () => {
                     <span>1.</span>
                     <h3>Frontend</h3>
                     <ul>
-                     <li><img src="assets/img/html5.png" alt="html5"/><span>HTML</span></li>
-                     <li><img src="assets/img/javascript.png" alt="Javascript"/><span>Javascript</span></li>
-                     <li><img src="assets/img/react.png" alt="React"/><span>React.js</span></li>
+                     <li><img src="/img/html5.png" alt="html5"/><span>HTML</span></li>
+                     <li><img src="/img/javascript.png" alt="Javascript"/><span>Javascript</span></li>
+                     <li><img src="/img/react.png" alt="React"/><span>React.js</span></li>
                     </ul>
                     <ul> 
-                     <li><img src="assets/img/vite.png" alt="Vite"/><span>Vite</span></li>
-                     <li><img src="assets/img/tscript.png" alt="Typescript"/><span>Typescript</span></li>
-                     <li><img src="assets/img/bootstrap.png" alt="Bootstrap"/><span>Bootstrap</span></li>
+                     <li><img src="/img/vite.png" alt="Vite"/><span>Vite</span></li>
+                     <li><img src="/img/tscript.png" alt="Typescript"/><span>Typescript</span></li>
+                     <li><img src="/img/bootstrap.png" alt="Bootstrap"/><span>Bootstrap</span></li>
                     </ul>
                 </div>
                 <div>
                     <span>2.</span>
                     <h3>Backend</h3>
                     <ul>
-                     <li><img src="assets/img/jsp_icon.png" alt="JSP"/><span>JSP</span></li>
-                     <li><img src="assets/img/php_icon.png" alt="PHP"/><span>PHP</span></li>
-                     <li><img src="assets/img/asp_icon.png" alt="ASP"/><span>ASP</span></li>
+                     <li><img src="/img/jsp_icon.png" alt="JSP"/><span>JSP</span></li>
+                     <li><img src="/img/php_icon.png" alt="PHP"/><span>PHP</span></li>
+                     <li><img src="/img/asp_icon.png" alt="ASP"/><span>ASP</span></li>
                      </ul>
                      <ul>
-                     <li><img src="assets/img/java_icon.png" alt="JAVA"/><span>JAVA</span></li>
-                     <li><img src="assets/img/node_icon.png" alt="NodeJs"/><span>Node.js</span></li>
+                     <li><img src="/img/java_icon.png" alt="JAVA"/><span>JAVA</span></li>
+                     <li><img src="/img/node_icon.png" alt="NodeJs"/><span>Node.js</span></li>
                     </ul>
                 </div>    
                 <div>
                     <span>3.</span>
                     <h3>Database</h3>
                     <ul>
-                     <li><img src="assets/img/oracle.png" alt="Oricle"/><span>Oricle</span></li>
-                     <li><img src="assets/img/mysql_icon.png" alt="Mysql"/><span>Mysql</span></li>
+                     <li><img src="/img/oracle.png" alt="Oricle"/><span>Oricle</span></li>
+                     <li><img src="/img/mysql_icon.png" alt="Mysql"/><span>Mysql</span></li>
                     </ul>
                 </div>      
                 <div>
                     <span>4.</span>
                     <h3>Tool</h3>
                     <ul>
-                     <li><img src="assets/img/eclips_icon.png" alt="Eclips"/><span>Eclips</span></li>
-                     <li><img src="assets/img/mysql_icon.png" alt="MysqlWorkbench"/><span>MysqlWorkbench</span></li>
-                     <li><img src="assets/img/oracle.png" alt="SQLDeveloper"/><span>SQLDeveloper</span></li>
+                     <li><img src="/img/eclips_icon.png" alt="Eclips"/><span>Eclips</span></li>
+                     <li><img src="/img/mysql_icon.png" alt="MysqlWorkbench"/><span>MysqlWorkbench</span></li>
+                     <li><img src="/img/oracle.png" alt="SQLDeveloper"/><span>SQLDeveloper</span></li>
                     </ul>
                     <ul> 
-                     <li><img src="assets/img/vscode.png" alt="VSCode"/><span>Visual Studio Code</span></li>
-                     <li><img src="assets/img/mssql.png" alt="SQL Server Management Studio"/><span>SQL Server Management Studio</span></li>
-                     <li><img src="assets/img/ultra_icon.png" alt="UltraEdit"/><span>UltraEdit</span></li>
+                     <li><img src="/img/vscode.png" alt="VSCode"/><span>Visual Studio Code</span></li>
+                     <li><img src="/img/mssql.png" alt="SQL Server Management Studio"/><span>SQL Server Management Studio</span></li>
+                     <li><img src="/img/ultra_icon.png" alt="UltraEdit"/><span>UltraEdit</span></li>
                     </ul>
                 </div> 
                                  
@@ -278,7 +278,7 @@ const handleNext = () => {
                 <SwiperSlide>
                                 <div className={port.swiper_slide}>
                                     <article id="port_item" className={`${port.port_item} ${port.p1}`}><span className={port.num}>01.</span>
-                                        <div><a href="https://child.ice.go.kr/" target="_blank" className={port.img}><img alt="인천광역시교육청 유아교육진흥원" src="assets/img/port01.jpg"/></a></div>
+                                        <div><a href="https://child.ice.go.kr/" target="_blank" className={port.img}><img alt="인천광역시교육청 유아교육진흥원" src="/img/port01.jpg"/></a></div>
                                         <h3 className={port.title}>인천광역시교육청 유아교육진흥원</h3>
                                         <p className={port.desc}>반응형 웹 사이트(유지보수 및 리뉴얼)</p><a href="https://child.ice.go.kr/" target="_blank" className={port.site}>사이트 보기</a>
                                     </article>
@@ -286,7 +286,7 @@ const handleNext = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                                 <div className={port.swiper_slide}>
-                                    <article id="port_item" className={`${port.port_item} ${port.p2}`}><span className={port.num}>02.</span><a href="https://history.ice.go.kr/" target="_blank" className={port.img}><img alt="인천광역시교육청 화도진도서관" src="assets/img/port02.jpg"/></a>
+                                    <article id="port_item" className={`${port.port_item} ${port.p2}`}><span className={port.num}>02.</span><a href="https://history.ice.go.kr/" target="_blank" className={port.img}><img alt="인천광역시교육청 화도진도서관" src="/img/port02.jpg"/></a>
                                         <h3 className={port.title}>인천광역시교육청 화도진도서관 향토문화자료관</h3>
                                         <p className={port.desc}>반응형 웹 사이트(유지보수 및 재구축)</p><a href="https://history.ice.go.kr/" target="_blank" className={port.site}>사이트 보기</a>
                                     </article>
@@ -294,7 +294,7 @@ const handleNext = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                                 <div className={port.swiper_slide}>
-                                    <article id="port_item" className={`${port.port_item} ${port.p3}`}><span className={port.num}>03.</span><a href="http://www.innojung.go.kr" target="_blank" className={port.img}><img alt="노인인력개발센터" src="assets/img/port03.jpg"/></a>
+                                    <article id="port_item" className={`${port.port_item} ${port.p3}`}><span className={port.num}>03.</span><a href="http://www.innojung.go.kr" target="_blank" className={port.img}><img alt="노인인력개발센터" src="/img/port03.jpg"/></a>
                                         <h3 className={port.title}>노인인력개발센터</h3>
                                         <p className={port.desc}>반응형 웹 사이트(유지보수 및 구축)</p><a href="http://www.innojung.go.kr" target="_blank" className={port.site}>사이트 보기</a>
                                     </article>
@@ -302,7 +302,7 @@ const handleNext = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                                 <div className={port.swiper_slide}>
-                                    <article id="port_item" className={`${port.port_item} ${port.p4}`}><span className={port.num}>04.</span><a href="http://www.michusc.or.kr" target="_blank" className={port.img}><img alt="미추홀시니어클럽" src="assets/img/port04.jpg"/></a>
+                                    <article id="port_item" className={`${port.port_item} ${port.p4}`}><span className={port.num}>04.</span><a href="http://www.michusc.or.kr" target="_blank" className={port.img}><img alt="미추홀시니어클럽" src="/img/port04.jpg"/></a>
                                         <h3 className={port.title}>미추홀시니어클럽</h3>
                                         <p className={port.desc}>반응형 웹 사이트(유지보수 및 구축)</p><a href="http://www.michusc.or.kr" target="_blank" className={port.site}>사이트 보기</a>
                                     </article>
@@ -310,7 +310,7 @@ const handleNext = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                                 <div className={port.swiper_slide}>
-                                    <article id="port_item" className={`${port.port_item} ${port.p5}`}><span className={port.num}>05.</span><a href="http://www.dreamparkcf.com/" target="_blank" className={port.img}><img alt="드림파크문화재단" src="assets/img/port05.jpg"/></a>
+                                    <article id="port_item" className={`${port.port_item} ${port.p5}`}><span className={port.num}>05.</span><a href="http://www.dreamparkcf.com/" target="_blank" className={port.img}><img alt="드림파크문화재단" src="/img/port05.jpg"/></a>
                                         <h3 className={port.title}>드림파크문화재단</h3>
                                         <p className={port.desc}>반응형 웹 사이트(유지보수)</p><a href="http://www.dreamparkcf.com/" target="_blank" className={port.site}>사이트 보기</a>
                                     </article>
@@ -318,7 +318,7 @@ const handleNext = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                                 <div className={port.swiper_slide}>
-                                    <article id="port_item" className={`${port.port_item} ${port.p6}`}><span className={port.num}>06.</span><a href="http://www.wooriart.co.kr/" target="_blank" className={port.img}><img alt="우리미술관" src="assets/img/port06.jpg"/></a>
+                                    <article id="port_item" className={`${port.port_item} ${port.p6}`}><span className={port.num}>06.</span><a href="http://www.wooriart.co.kr/" target="_blank" className={port.img}><img alt="우리미술관" src="/img/port06.jpg"/></a>
                                         <h3 className={port.title}>우리미술관</h3>
                                         <p className={port.desc}>반응형 웹 사이트(유지보수)</p><a href="http://www.wooriart.co.kr/" target="_blank" className={port.site}>사이트 보기</a>
                                     </article>
@@ -326,7 +326,7 @@ const handleNext = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                                 <div className={port.swiper_slide}>
-                                    <article id="port_item" className={`${port.port_item} ${port.p1}`}><span className={port.num}>07.</span><a href="http://www.keea-news.or.kr/" target="_blank" className={port.img}><img alt="전기기술인협회" src="assets/img/port07.jpg"/></a>
+                                    <article id="port_item" className={`${port.port_item} ${port.p1}`}><span className={port.num}>07.</span><a href="http://www.keea-news.or.kr/" target="_blank" className={port.img}><img alt="전기기술인협회" src="/img/port07.jpg"/></a>
                                         <h3 className={port.title}>전기기술인협회</h3>
                                         <p className={port.desc}>반응형 웹 사이트(유지보수 및 구축)</p><a href="http://www.keea-news.or.kr/" target="_blank" className={port.site}>사이트 보기</a>
                                     </article>
