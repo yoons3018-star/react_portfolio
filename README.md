@@ -65,6 +65,9 @@ npm install
 npm run dev
 ```
 
+## 완성 사이트 
+https://yoons3018-star.github.io/portfolio_docu/
+
 ## 프로젝트 목적
 
 이 프로젝트는 대규모 기능 구현보다,
